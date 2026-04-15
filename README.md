@@ -36,18 +36,4 @@ mininet> link s1 s2 down
 
 -----
 
-## 📸 Proof of Execution
 
-### 1\. Triggering the Event (Mininet)
-
-*Dropping the link between Switch 1 and Switch 2 to simulate a network hardware failure.*
-
-### 2\. Controller Detection (Ryu)
-
-*The custom Ryu controller script successfully parses the OpenFlow messages and logs the specific `Link Down` event without crashing the network.*
-
-### 3\. Packet-Level Verification (TShark)
-
-*TShark intercepts the raw OpenFlow packet, proving the switch transmitted an `OFPT_PORT_STATUS` message to notify the controller of the severed link.*
-
-```
