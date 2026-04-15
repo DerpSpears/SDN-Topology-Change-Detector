@@ -33,7 +33,7 @@ sudo tshark -i any -l | grep "PORT_STATUS"
 ```bash
 mininet> link s1 s2 down
 ```
+[
 
------
-
+](https://docs.google.com/document/d/1bAoUTRNjG5rvhgkVcVJhiaKVK_IYfRyx8y02xM0IvNE/edit?usp=sharing)
 
